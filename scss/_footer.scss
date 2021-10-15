@@ -1,0 +1,47 @@
+/* VARS */
+
+$paddingFooter: 1rem  1rem;
+
+/* Footer */
+
+footer {
+    background-color: #37B5FF;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; 
+     
+    .iconosRedes {
+        display: flex;
+        flex-direction: row;  
+        justify-content: space-evenly; 
+
+        .iconosRedes_iconoFacebook {
+            padding: $paddingFooter;
+        }
+        
+        .iconosRedes_iconoInstagram {
+            padding: $paddingFooter;
+        }
+        
+        .iconosRedes_iconoYoutube {
+            padding: $paddingFooter;
+        }
+        
+        .iconosRedes_iconoPinterest {
+            padding: $paddingFooter;
+        }
+        
+        .iconosRedes_iconoTumblr {
+            padding: $paddingFooter;
+        }
+    }    
+    
+    .copyright {
+        color:black;
+        padding-bottom: 1rem;
+    }
+
+}
+

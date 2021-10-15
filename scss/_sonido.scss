@@ -1,0 +1,119 @@
+/* Sonido */
+
+.sonido {
+    background: url('../imagenes/sonido.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainSonido {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+
+    .mainSonido_titulo {
+        color: black;
+        font-family: 'Lato', sans-serif, 'black';
+        text-align: center;
+
+        @media (max-width: 767px){
+            .mainSonido_titulo {
+                color: black;
+                font-family: 'Lato', sans-serif, 'black';
+                text-align: center;
+                font-size: 130%;
+            }
+        }
+
+        @media (max-width: 480px){
+            .mainSonido_titulo {
+                color: black;
+                font-family: 'Lato', sans-serif, 'black';
+                text-align: center;
+                font-size: 130%;
+            }
+        }
+    }
+    
+    .mainSonido_texto {
+        color: black;
+        line-height: 1.6;
+        font-family: 'Lato', sans-serif, 'regular';  
+        
+        
+        @media (max-width: 767px){
+            .mainSonido_texto {
+                color: black;
+                line-height: 1.6;
+                font-family: 'Lato', sans-serif, 'regular'; 
+                padding-right: 2rem;
+                padding-left: 2rem;  
+            }
+        }
+    }
+
+    .ventanitaMolesta{
+        display:none;
+    }
+    
+    .videos {
+        padding-right: 20rem;
+        padding-left: 25rem;
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+
+        
+        @media (max-width: 767px){
+            .videos {
+                padding-right: 6rem;
+                padding-left: 6rem;
+                padding-top: 2rem;
+                padding-bottom: 5rem;
+            }
+        }
+     }
+
+    .video1 {
+        padding-bottom: 1rem;
+       
+        @media (max-width: 767px){
+            .video1 {
+                padding-bottom: 1rem;
+                width: 120%;
+                height: 60%;
+            }
+        }
+        
+        @media (max-width: 480px){
+            .video1 {
+                padding-bottom: 1rem;
+                width: 120%;
+                height: 60%;
+            }
+        }
+    }
+
+    .video2 {
+        padding-top: 1rem;
+
+        @media (max-width: 767px){
+            .video2 {
+                padding-top: 1rem;
+                width: 120%;
+                height: 60%;
+            }
+        }
+        
+        @media (max-width: 480px){
+            .video2 {
+                padding-top: 1rem;
+                width: 120%;
+                height: 60%;
+            }
+        }
+        
+    }
+}
+
+
+

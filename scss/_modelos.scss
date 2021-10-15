@@ -1,0 +1,70 @@
+/* Modelos */
+
+.modelos {
+    background-color: black;
+}
+
+.mainModelos {
+    background-color: black;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+  
+    .mainModelos_texto {
+        padding-bottom: 2rem;
+    }
+}
+
+/*.guitarras {
+     padding-right: 5rem;
+     display: flex;
+     justify-content: center;
+     justify-content: space-evenly;
+     align-content: center;
+}
+
+@media (max-width: 767px){   
+    .guitarras {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-content: center;
+   }
+}
+
+@media (max-width: 480px){
+    .guitarras {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-content: center;
+   }
+} */
+
+.carousel {
+    padding-bottom: 6rem;
+
+    .carousel-inner {
+        display: flex;
+        justify-content:space-around;
+    }
+
+    .carrousel-caption {
+        padding-top: 12rem;
+        padding-right: 5rem;
+    }  
+}
+
+.nombreGuitarra{
+    display: flex;
+    justify-content:space-around;
+    justify-content: center;
+    color:black;
+}
+
+.imagenGuitarra {
+    width: 60%;
+} 
